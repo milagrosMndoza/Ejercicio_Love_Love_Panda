@@ -1,0 +1,129 @@
+/*
+Colores & tipografía: 
+Verde - #ABE188;
+Rosa - #F78E69;
+font-family: 'Raleway', sans-serif;
+*/
+
+/* Escribe tu código acá debajo */
+
+*{
+	background-color:  #F78E69;
+	margin: 0;
+	padding: 0;
+	font-family: "Raleway", sans-serif;
+	font-size: 16px; 
+}
+/*titulo de encabezado*/
+.encabezado{
+	font-size: 30px;
+	background-color: #F78E69;
+	padding: 10px 0;
+
+}
+.encabezado h1{
+	margin-top: 30px;
+	font-size: 50px;
+	text-align: right;
+	color: white; 
+	padding:10px 80px;
+    background-color: #F78E69;
+    
+}
+h2{
+    margin-top: 60px 0;
+	font-size: 30px;
+	text-align: center;
+	color: white; 
+	padding:20px 70px;
+    background-color: #F78E69;
+}
+/*pie de titulo*/
+#two{
+	font-size: 18px;
+	text-align: right;
+	color: white; 
+	padding:10px 80px;
+	margin-bottom: 10px;
+}
+/*parrafos generales*/
+p{
+	font-size: 16px;
+	color: white; 
+	padding:10px 80px;
+	margin-bottom: 30px;
+    background-color: #F78E69;
+}
+
+
+.firstImage{
+	background: url(../img/uno.jpg);
+    background-size: cover;
+    background-position: center;
+    padding:250px 0;
+    margin: 20px 0;
+    
+}
+/*contenido de parrafo y su color respectivo*/
+.parrafo{
+	background-color: #ABE189;
+	padding: 40px 0;
+	color: white;
+   
+}
+/*fondo del parrafo y texto*/
+.contenido{
+    background-color: #F78E69;
+    text-align: center;
+    margin-right: 350px;
+    margin-left: 390px;
+}
+/*segunda imagen*/
+.secondImage{
+    margin: 20px  0;
+	background: url(../img/dos.jpg);
+    background-size: cover;
+    background-position: center;
+    padding:300px 0;
+   
+}
+
+/* sección lista de imagenes*/
+
+.galeria{
+    background: #ABE188;
+    padding: 60px 0;
+    text-align: center;
+
+}
+.galeria h2{
+    font-size: 40px;
+    background-color: #ABE188;
+}
+.foto{
+    background: #ABE188;
+    border: 10px solid white;
+    margin: 15px;
+    width: 10%;
+    right: 10%;
+    display: inline-block;
+    
+}
+
+/*tercera imagen*/
+.thirdImage{
+	background: url(../img/tres.jpg);
+    background-size: cover;
+    background-position: center;
+    padding:300px 0;
+    margin: 20px 0;
+	
+	
+}
+
+footer{
+    background-color: #F78E69;
+    border-bottom: none;
+    text-align: right;
+
+}
